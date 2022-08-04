@@ -1,0 +1,499 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+/********  HEADER STYLE START *********/
+@media only screen and (min-width:1400px){
+    .right-part-header{
+        padding-left:8%;
+    }
+}
+@media only screen and (min-width:992px){
+    .right-part-header{
+        padding-left:7%;
+    }
+}
+@media (min-width:1200px) and (max-width: 1400px) 
+{
+    .right-part-header{
+        padding-left:4%;
+    }
+}
+
+
+/******** NAVBAR STYLE START *********/
+.custom-navbar{
+    z-index: 2;
+}
+@media only screen and (min-width: 996px) {
+    .custom-navbar{
+        padding:2% 0;
+    }
+    nav .navbar-content .content-list a:hover {
+        color:#0C65ED !important;
+    }
+    .custom-dropdown-menu{
+        opacity:0;
+        display:inline-block !important;
+    }
+    nav .navbar-content .content-list a:hover + .custom-dropdown-menu{
+        opacity:1;
+        transition: 0.5s;
+        transform: translateX(10%);
+    }
+    .custom-dropdown-menu:hover{
+        opacity: 1;
+    }
+    .custom-drop-down{
+        background-color: white !important;
+    }
+    .custom-dropdown-menu li{
+        padding:4% !important;
+        border-bottom:solid rgb(219, 219, 219) 1px
+    }
+    .custom-dropdown-menu{
+        border-radius: 0%;
+        border-top: #0C65ED solid 3px;
+        padding-top:0px;
+        padding-bottom:0px;    
+    }
+}
+@media only screen and (max-width: 995px){
+    nav .navbar-content .content-list a{
+        background-color: black;
+        color:white !important;
+    }
+    nav .navbar-content .content-list a:hover {
+        color:#0C65ED !important;
+    }
+    .custom-dropdown-menu{
+        margin:0 !important;
+        padding:0;
+        border:none;
+    }   
+}
+/******************SLIDER STYLE **********************/
+.custom-carousel-item{
+    position:relative;
+}
+.custom-carousel-item image{
+    height: 100vh;
+}
+.overlay{
+    background-color: black;
+    opacity: 0.8;
+    width:100%;
+    height: 100%;
+    position:absolute;
+    top: 0px;
+}
+.custom-carousel-content{
+    bottom: 14rem;
+
+}
+.custom-carousel-content h5{
+    font-size: 70px;
+    padding-bottom:4%
+}
+.custom-carousel-content p{
+    width:55%;
+    margin:auto;
+    font-size: 20px;
+    padding-bottom: 4%;
+}
+.custom-carousel-content button{
+    font-size: 20px;
+    border-radius: 50px;
+    height:50px;
+    width:200px;
+}
+.custom-carousel-content .contact-btn:hover{
+    background-color:#0B5ED7;
+    color:white;
+    border:0;
+}
+.animate_animated.animate__bounceIn {
+    --animate-duration: 3s;
+}
+.custom-carousel-item .fourth-image{
+    height:735px;
+}
+.custom-indicators{
+    margin-bottom: 300px;
+}
+.custom-indicators button{
+    width:9px !important;
+    height: 9px !important;
+}
+.custom-indicators button:focus{
+    background-color: white;
+    width:10px;
+    height:10px;
+
+}
+@media only screen and (max-width:768px){
+    /* .custom-carousel-content p{
+        display: none;
+    } */
+    .custom-indicators{
+        margin-bottom: 10px;
+    }
+    .custom-carousel-item image{
+        height:721.6px;
+    }   
+}
+
+/************* ABOUT US STYLE ****************/
+.about-header{
+    padding:70px 0px;
+}
+.about-header h1{
+    width: 169px;
+}
+.about-header h1::before{
+    content:"";
+    position:absolute;
+    right:190px;
+    top:30px;
+    width: 70px;
+    height: 2px;
+    background-color:#0C65ED;
+    /* border:3px solid #0c65ed; */
+    
+}
+.about-header h1 span::before{
+    content:"";
+    position:absolute;
+    right:190px;
+    top:20px;
+    width: 40px;
+    height: 3px;
+    background-color:#0C65ED;
+    /* border:3px solid #0c65ed; */
+    
+}
+.about-header h1::after{
+    content:"";
+    position:absolute;
+    left:190px;
+    top:30px;
+    width: 70px;
+    height: 2px;
+    background-color:#0C65ED;
+    /* border:3px solid #0c65ed; */
+    
+}
+.about-header h1 span::after{
+    content:"";
+    position:absolute;
+    left:190px;
+    top:20px;
+    width: 40px;
+    height: 3px;
+    background-color:#0C65ED;
+    /* border:3px solid #0c65ed; */    
+}
+.about-row{
+    margin-bottom: 80px;
+}
+.about-content .card{
+    top: 23px;
+    left:37px;
+
+}
+.about-content .sub-card{
+    margin:10px 0;
+}
+.about-content .sub-card i{
+    padding: 22px 3px;
+    padding-bottom: 0px;
+}
+.about-content .sub-card .card-section{
+    padding-left:1px;
+    border-left:solid grey 1px;
+}
+.about-content .sub-card .card-section p{
+    font-size:13px;
+}
+.about-content .sub-card .card-section h2{
+    padding-bottom:0px;
+    margin-bottom:0px;
+}
+.about-content .about-us-btn{
+    border-radius:50px;
+    padding:7px 30px;
+}
+.about-content img{
+    height: 459px;
+}
+/********************  END ABOUT US STYLE **********************/
+/********************  START NUM SECTION STYLE **********************/
+.num-section{
+    padding:80px 0px;
+}
+
+@media only screen and (max-width:576px){
+    .num-section{
+        padding:60px 0px
+    }
+    .num-section .num-card{
+        margin-bottom: 30px;
+    }
+
+}
+@media (max-width:1200px) and (min-width:576px){
+    .num-section .num-card{
+        margin-bottom:30px;
+    }
+} 
+/********************  END NUM SECTION STYLE **********************/
+/********************  START SERVICE SECTION STYLE **********************/
+.service-section{
+    background-image: url(../images/service-bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.service-section .section-content{
+    position:relative;
+    z-index: 1;
+}
+.service-section .section-content p{
+    font-size: 15px;
+}
+.service-section .section-content .section-card{
+    color:white;
+    background-color: transparent;
+    border: white solid 1px;
+    border-radius: 10px;
+    padding:80px 0px;
+    width: 98%;
+    margin-bottom: 25px;
+    
+}
+.service-section .section-content .section-card:hover .custom-service-card{
+    opacity:1 !important;
+    transition: 0.5s;
+
+}
+.service-section .section-content .section-card:hover .custom-service-card .custom-card-body{
+    transform: translateY(-40px);
+    transition: 0.3s;
+}
+/********************  END SERVICE SECTION STYLE **********************/
+/********************  START WORK SECTION STYLE **********************/
+.work-section .custom-row .col:hover a{
+    color:#0B5ED7 !important;
+}
+.work-section .section-cards .custom-card{
+    width:98%;
+    margin-bottom: 30px;
+}
+.work-section .section-cards .custom-card .hover-card{
+    margin-left:5%;
+    opacity:0%;
+    bottom:3%;
+    width:90%;
+}
+.work-section .section-cards .custom-card img:hover + .hover-card{
+    opacity:90%;
+    transition:all 0.4s ease-in-out;
+}
+.work-section .section-cards .custom-card img:hover{
+    box-shadow: 0 0px 20px 0 grey;
+} 
+/********************  END WORK SECTION STYLE **********************/
+/********************  START TEAM SECTION STYLE **********************/
+#team-section .custom-card{
+    width:98%;
+    margin-bottom: 30px;
+    overflow-y: hidden;
+}
+#team-section .custom-card .card{
+    width:90% !important;
+    box-shadow: 0px -4px 6px -2px grey;
+    top:81%;
+    transition: top 0.4s;
+}
+.hover-member{
+    width:90%;
+}
+
+.hover-member i{
+    padding:10px 0px;
+    margin:0px 10px;
+}
+.hover-member i:hover{
+    color:black
+}
+#team-section .member:hover .card{
+    top:50% !important;
+    transition:all 0.4s ease-in-out;
+}
+/********************  START TEAM SECTION STYLE **********************/
+/********************  START TEAM SECTION STYLE **********************/
+#pricing-section .section-cards .tab-btns button{
+    font-size: 18px;
+    width:200px;
+    padding: 12px;
+    font-weight: 600;
+}
+#pricing-section .section-cards .tab-btns #month-btn{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+#pricing-section .section-cards .tab-btns #year-btn{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#pricing-section .cards-section{
+    width:90%;
+}
+#pricing-section .cards-section .col-shadow{
+    position: static;
+    z-index: 1;
+}
+#pricing-section .cards-section .get-started-btn{
+    border-radius:50px !important;
+    width:48%;
+    padding:3% 0px;
+}
+#pricing-section .cards-section .business-btn:hover{
+    background-color: #002358 !important;
+    border: 1px solid #002358;
+}
+#pricing-section .cards-section .title-hr{
+    width:20%;
+    height:2px;
+    opacity: 1;
+    background-color:#639cf1;
+    border: 0;
+}
+/********************  START TEAM SECTION STYLE **********************/
+#subscribe-section{
+    background-color: #1A1A1A;
+}
+#subscribe-section .subscribe-btn{
+    width:200px;
+    border-radius: 50px;
+}
+#subscribe-section .row{
+    padding:7% 0px;
+}
+/********************  START TEAM SECTION STYLE **********************/
+/********************  START TEAM SECTION STYLE **********************/
+#blog-section .card-section{
+    width:89%;
+}
+#blog-section .card-section .card{
+    overflow: hidden;
+}
+#blog-section .card-section .card img{
+    transition: all 0.5s;
+    height:260px;
+}
+#blog-section .card-section .card .img-sec{
+    height:260px;
+    overflow:hidden;
+}
+#blog-section .card-section .card:hover img{
+    transition: all 0.5s;
+    transform: rotate(-2deg) scale(1.1);
+    /* transform:  */
+}
+#blog-section .card-section .card i{
+    transition: 0.5s;
+}
+#blog-section .card-section .card .read-more-btn{
+    font-size: 13px;
+    font-weight: 600;
+}
+#blog-section .card-section .card .read-more-btn:hover i{
+    transition: 0.5s;
+    transform: translateX(6px);
+}
+#blog-section .card-section .progress{
+    height:3px;
+}
+#blog-section .card-section .card:hover .progress-bar{
+    width:100% !important;
+}
+#blog-section .card-section .card .small-details span{
+    font-size: 13px !important;
+    font-weight: 800px; ;
+}
+#blog-section .card-section .card .small-details span .fa-calendar-days{
+    color:rgb(165, 165, 165);
+}
+#blog-section .card-section .card:hover .icons{
+    background-color: #0B5ED7 !important;
+}
+#blog-section .card-section .card .icons i:hover{
+    color: #c6ddff !important;
+}
+#blog-section .card-section .card h5:hover{
+    color:#0B5ED7;
+}
+/********************  START TEAM SECTION STYLE **********************/
+#clients-section{
+    padding-top:7%;
+}
+#clients-section .image-shadow{
+    width:272px;
+    height:442px;
+    filter: drop-shadow(-16px 16px 10px grey);
+}
+#clients-section .img-section{
+    box-sizing: content-box !important;
+    margin-bottom:20px;
+}
+#clients-section .clients-row{
+    width:85%;
+}
+#clients-section .img-row{
+    width:100%;
+}
+#clients-section .client-img{
+    width:153px;
+    height:80px;
+    padding:7% 22%;
+    box-sizing: content-box !important;
+}   
+/********************  START TEAM SECTION STYLE **********************/
+/********************  START TEAM SECTION STYLE **********************/
+#purchase-section .purchase-btn{
+    width:200px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+/********************  START TEAM SECTION STYLE **********************/
+/********************  START TEAM SECTION STYLE **********************/
+footer .footer-title-hr{
+    width:15%;
+    opacity: 1 !important;
+    background-color: #0B5ED7;
+    height:2px;
+    color:#0B5ED7
+}
+footer .card img{
+    width:80px;
+    height:60px;
+}
+footer .popular-btns button{
+    border-radius:50px;
+    font-size: 15px;
+    margin:8px 6px;
+}
+.DTM-theme{
+    box-shadow: 0 0px 15px 0 black;
+}

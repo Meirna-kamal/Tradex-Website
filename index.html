@@ -1,0 +1,926 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+  <body>
+
+    <!-------------------------START HEADER ------------------------>
+    
+    <header class="bg-primary text-white d-none  d-lg-block">
+        <div class="container">
+            <div class="row justify-content-between pt-3 pb-3">
+                <div class="col-md-7">
+                    <div class="d-flex align-items-center h-100">
+                        <ul class="d-flex align-items-center h-100 mb-0 ps-0">
+                            <li><a class="text-white pe-3"href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a class="text-white pe-3"href=""><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a class="text-white pe-3"href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a class="text-white pe-3"href=""><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a class="text-white pe-3 border-end border-2"href=""><i class="fa-brands fa-google-plus-g"></i></a></li>
+                        </ul>
+                        <div class="d-flex align-items-center">
+                            <i class="fa-solid fa-location-dot ps-3"></i>
+                            <p class="ps-3 mb-0">267 Park Avenue New York, NY 90210</>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-5 right-part-header">
+                    <div class="d-flex ">
+                        <div class="d-flex align-items-center">
+                            <i class="fa-solid fa-envelope pe-3"></i>
+                            <p class="pe-3 border-end border-2 mb-0">Quick Email</p>
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-phone ps-3 mt-1"></i>
+                            <p class="ps-3 mb-0">+1 (409) 987–5874</p>
+                        </div>
+                           
+                    </div>
+                                     
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-------------------------END HEADER ------------------------>
+
+    <!-------------------------START NAV BAR ------------------------>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white custom-navbar position-sticky top-0">
+        <div class="container-lg">
+          <a class="navbar-brand" href="#"><img src="images/Trade-X-Logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navbar-content" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto content-list">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark text-uppercase" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Home
+                    </a>
+                    <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item custom-drop-down" href="#">Home01</a></li>
+                        <li class="border-0"><a class="dropdown-item custom-drop-down" href="#">Home02</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark text-uppercase" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark text-uppercase" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Headers
+                    </a>
+                    <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item custom-drop-down" href="#">Header Style 1</a></li>
+                        <li><a class="dropdown-item custom-drop-down" href="#">Header Style 2</a></li>
+                        <li><a class="dropdown-item custom-drop-down" href="#">Header Style 3</a></li>
+                        <li class="border-0"><a class="dropdown-item custom-drop-down" href="#">Header Style 4</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark text-uppercase" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Blog Post
+                    </a>
+                    <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item custom-drop-down" href="#">Blog Grid</a></li>
+                        <li><a class="dropdown-item custom-drop-down" href="#">Blog Masonary</a></li>
+                        <li><a class="dropdown-item custom-drop-down" href="#">Header Style 3</a></li>
+                        <li class="border-0"><a class="dropdown-item custom-drop-down " href="#">Header Style 4</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark text-uppercase" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item custom-drop-down" href="#">Full Width</a></li>
+                        <li><a class="dropdown-item custom-drop-down" href="#">Service 2 Column</a></li>
+                        <li><a class="dropdown-item custom-drop-down" href="#">Service 3 Column</a></li>
+                        <li class="border-0"><a class="dropdown-item custom-drop-down" href="#">Service 4 Column</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark text-uppercase" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        FEATURES
+                    </a>
+                    <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item custom-drop-down" href="#">Shortcodes</a></li>
+                        <li><a class="dropdown-item custom-drop-down" href="#">Feature 2 Column</a></li>
+                        <li><a class="dropdown-item custom-drop-down" href="#">Feature 3 Column</a></li>
+                        <li class="border-0"><a class="dropdown-item custom-drop-down" href="#">Feature 4 Column</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark text-uppercase" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        PAGES
+                    </a>
+                    <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item custom-drop-down" href="#">Shortcodes</a></li>
+                        <li><a class="dropdown-item custom-drop-down" href="#">Feature 2 Column</a></li>
+                        <li><a class="dropdown-item custom-drop-down" href="#">Feature 3 Column</a></li>
+                        <li class="border-0"><a class="dropdown-item custom-drop-down" href="#">Feature 4 Column</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">CONTACT</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-------------------------END NAV BAR ------------------------>
+    <!-------------------------START CAROUSEL ------------------------>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators custom-indicators flex-column align-items-end">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active custom-carousel-item">
+            <img src="images/slider1.jpg" class="d-block w-100" alt="...">
+            <div class="overlay"></div>
+            <div class="carousel-caption d-none d-md-block custom-carousel-content">
+              <h5 class="animate_animated animate__bounceIn">What You Do For People Today1</h5>
+              <p class="animate_animated animate__bounceIn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iste eveniet tempora voluptatum qui, beatae ut.</p>
+              <div class="buttons">
+                <button type="button" class="btn btn-primary">Get Started Now</button>
+                <button type="button" class="btn btn-outline-light contact-btn">Contact Us</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item custom-carousel-item">
+            <img src="images/slider2.jpg" class="d-block w-100" alt="...">
+            <div class="overlay"></div>
+            <div class="carousel-caption d-none d-md-block custom-carousel-content">
+              <h5 class="animate_animated animate__bounceIn">What You Do For People Today2</h5>
+              <p class="animate_animated animate__bounceIn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nulla nobis minima veritatis, cumque magni doloribus repellendus quos ducimus beatae!</p>
+              <button type="button" class="btn btn-primary">Get Started Now</button>
+              <button type="button" class="btn btn-outline-light contact-btn">Contact Us</button>
+            </div>
+          </div>
+          <div class="carousel-item custom-carousel-item">
+            <img src="images/slider3.jpg" class="d-block w-100" alt="...">
+            <div class="overlay"></div>
+            <div class="carousel-caption d-none d-md-block custom-carousel-content">
+              <h5 class="animate_animated animate__bounceIn">What You Do For People Today3</h5>
+              <p class="animate_animated animate__bounceIn">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ipsa. Blanditiis adipisci tempora doloribus sit!</p>
+              <button type="button" class="btn btn-primary">Get Started Now</button>
+              <button type="button" class="btn btn-outline-light contact-btn">Contact Us</button>
+            </div>
+          </div>
+          <div class="carousel-item custom-carousel-item">
+            <img src="images/ecommerce-cover-2.jpg" class="d-block w-100 fourth-image" alt="...">
+            <div class="overlay"></div>
+          </div>
+        </div>
+        
+    </div>
+    <!-------------------------END CAROUSEL ------------------------>
+    <!-------------------------START ABOUT SECTION ------------------------>
+    <div class="container d-flex flex-column">
+      <div class="about-header w-100 text-center">
+        <h1 class="position-relative mx-auto"><span></span> About Us</h1>
+        <p>About Us</p>
+      </div>
+      <div class="about-content">
+        <div class="row align-items-start about-row">
+          <div class="col-12 col-lg-3 col-md-6 card rounded-0 shadow-lg position-relative" style="padding: 0px 0px;">
+            <div class="sub-card d-flex">
+              <i class="fa-solid fa-bullhorn fs-3"></i>
+              <div class="card-section">
+                <h2 class="fs-5">Marketing</h2>
+                <p>Lorem ipsum dolor sit amet, Aenea jkn consectetuer adipiscn elit.</p>
+              </div>    
+            </div>
+            <div class="sub-card d-flex">
+              <i class="fa-solid fa-sliders fs-3"></i>
+              <div class="card-section">
+                <h2 class="fs-5">Great Usability</h2>
+                <p>Lorem ipsum dolor sit amet, Aenea jkn consectetuer adipiscn elit.</p>
+              </div>    
+            </div>
+            <div class="sub-card d-flex">
+              <i class="fa-solid fa-desktop fs-3"></i>
+              <div class="card-section">
+                <h2 class="fs-5">Unique Design</h2>
+                <p>Lorem ipsum dolor sit amet, Aenea jkn consectetuer adipiscn elit.</p>
+              </div>    
+            </div>
+            <div class="sub-card d-flex">
+              <i class="fa-solid fa-thumbs-up fs-3"></i>
+              <div class="card-section">
+                <h2 class="fs-5">Quick & Powerful</h2>
+                <p>Lorem ipsum dolor sit amet, Aenea jkn consectetuer adipiscn elit.</p>
+              </div>    
+            </div>   
+          </div>
+          <div class="col-12 col-lg-5 col-md-6">
+            <img src="images/abt-3.jpg" alt="" class="w-100">
+          </div>
+          <div class="col-12 col-lg-4 text-secondary">
+            <p class="lh-md fs-6">Dorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit nisi a dictum tristique. Nullam urna metus, vestibulum ac sodales eSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam remrutrumDorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis.</p>
+            <p class="lh-md fs-6">Dorem ipsum dolor sit amet. consectetur adipiscing elit. Ut blandit nisi a dictum tristique. Nullam urna metus, vestibulum ac sodales eSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam remrutrumDorem ipsum dolor sit amet, consectetur.</p>
+            <button type="button" class="btn btn-primary about-us-btn">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <!-------------------------END ABOUT SECTION ------------------------>
+    <!-------------------------START NUMBER SECTION ------------------------>
+    <div class="num-section bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="num-card col-12 col-sm-6 col-xl-3 text-center d-flex align-items-start">
+            <i class="fa-solid fa-desktop fs-2 text-primary border-1 rounded p-3 bg-white shadow-lg"></i>
+            <div class="content px-3">
+              <h3 class="fs-3 ps-0 text-start">8000</h3>
+              <p class="text-secondary">Total Projects</p>
+            </div>                 
+          </div>
+          <div class="num-card col-12 col-sm-6 col-xl-3 text-center d-flex align-items-start">
+            <i class="fa-solid fa-trophy fs-2 text-primary border-1 rounded p-3 bg-white shadow-lg"></i>
+            <div class="content px-3">
+              <h3 class="fs-3 ps-0 text-start">810</h3>
+              <p class="text-secondary">Won Awards</p>
+            </div>                 
+          </div>
+          <div class="num-card col-12 col-sm-6 col-xl-3 text-center d-flex align-items-start">
+            <i class="fa-solid fa-face-smile fs-2 text-primary border-1 rounded p-3 bg-white shadow-lg"></i>
+            <div class="content px-3">
+              <h3 class="fs-3 ps-0 text-start">2000</h3>
+              <p class="text-secondary">Happy Clients</p>
+            </div>                 
+          </div>
+          <div class="num-card col-12 col-sm-6 col-xl-3 text-center d-flex align-items-start mb-0">
+            <i class="fa-solid fa-calendar-days fs-2 text-primary border-1 rounded p-3 bg-white shadow-lg"></i>
+            <div class="content px-3">
+              <h3 class="fs-3 ps-0 text-start">20</h3>
+              <p class="text-secondary">Years Experience</p>
+            </div>                 
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-------------------------END NUMBER SECTION ------------------------>
+    <!-------------------------START SERVICE SECTION ------------------------>
+    <div class="service-section position-relative py-5">
+      <div class="section-overlay w-100 h-100 bg-dark opacity-75 position-absolute top-0"></div>
+      <div class="container">
+        <div class="section-content w-100 text-center m-auto">
+          <div class="w-75 m-auto">
+            <h1 class="position-relative mx-auto text-white fs-2"><span></span> Our Services</h1>
+            <p class="text-white mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm dipisicing elit, sed do eiusmod tempor.</p>
+          </div>
+ 
+          <div class="section-cards row justify-content-between">
+            <div class="col-12 col-md-6 col-lg-4 ">
+              <div class="  section-card d-flex flex-column justify-content-center position-relative">
+                <i class="fs-2 pb-2 fa-solid fa-cloud-arrow-up"></i>
+                <h2 class="fs-5">Online Marketing</h2>
+                <div class="card custom-service-card text-center text-black h-100 w-100 position-absolute top-0 opacity-0">
+                  <div class="custom-card-body card-body d-flex flex-column justify-content-end align-items-center">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 ">
+              <div class="  section-card d-flex flex-column justify-content-center position-relative">
+                <i class="fs-2 pb-2 fa-solid fa-cloud-arrow-up"></i>
+                <h2 class="fs-5">Online Marketing</h2>
+                <div class="card custom-service-card text-center text-black h-100 w-100 position-absolute top-0 opacity-0">
+                  <div class="custom-card-body card-body d-flex flex-column justify-content-end align-items-center">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 ">
+              <div class="  section-card d-flex flex-column justify-content-center position-relative">
+                <i class="fs-2 pb-2 fa-solid fa-cloud-arrow-up"></i>
+                <h2 class="fs-5">Online Marketing</h2>
+                <div class="card custom-service-card text-center text-black h-100 w-100 position-absolute top-0 opacity-0">
+                  <div class="custom-card-body card-body d-flex flex-column justify-content-end align-items-center">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 ">
+              <div class="  section-card d-flex flex-column justify-content-center position-relative">
+                <i class="fs-2 pb-2 fa-solid fa-cloud-arrow-up"></i>
+                <h2 class="fs-5">Online Marketing</h2>
+                <div class="card custom-service-card text-center text-black h-100 w-100 position-absolute top-0 opacity-0">
+                  <div class="custom-card-body card-body d-flex flex-column justify-content-end align-items-center">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 ">
+              <div class="  section-card d-flex flex-column justify-content-center position-relative">
+                <i class="fs-2 pb-2 fa-solid fa-cloud-arrow-up"></i>
+                <h2 class="fs-5">Online Marketing</h2>
+                <div class="card custom-service-card text-center text-black h-100 w-100 position-absolute top-0 opacity-0">
+                  <div class="custom-card-body card-body d-flex flex-column justify-content-end align-items-center">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 ">
+              <div class="  section-card d-flex flex-column justify-content-center position-relative">
+                <i class="fs-2 pb-2 fa-solid fa-cloud-arrow-up"></i>
+                <h2 class="fs-5">Online Marketing</h2>
+                <div class="card custom-service-card text-center text-black h-100 w-100 position-absolute top-0 opacity-0">
+                  <div class="custom-card-body card-body d-flex flex-column justify-content-end align-items-center">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>     
+        </div>
+   
+      </div>
+
+    </div>
+
+    <!-------------------------END SERVICE SECTION ------------------------>
+    <!-------------------------START WORK SECTION ------------------------>
+    <section class="work-section py-5">
+      <div class="container">
+        <div class="content w-100 text-center ">
+          <div class="w-75 mx-auto">
+            <h2 class="mx-auto fs-2">Our Work</h2>
+            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor, nisl sed bibendum pretium, diam nisi mattis lectus, eu varius lorem mauris posuere dui. Proin consequat.</p>
+            <div class="custom-row row w-50 mx-auto justify-content-around mb-5"> 
+              <div class="col text-primary p-0">
+                <a href=""><span class="mx-5 p-0 fw-bold">All</span><span class=" p-0">/</span></a>
+              </div>              
+              <div class="col text-primary p-0">
+                <a href="" class="text-black"><span class="fw-bold mx-5 p-0">All</span><span class=" p-0">/</span></a>
+              </div>              
+              <div class="col text-primary p-0">
+                <a href="" class="text-black"><span class="fw-bold mx-5 p-0">All</span><span class=" p-0">/</span></a>
+              </div>              
+              <div class="col text-primary p-0">
+                <a href="" class="text-black"><span class="fw-bold mx-5 p-0">All</span></a>
+              </div>              
+            </div>
+          </div>
+          <div class="section-cards row justify-content-between">
+            <div class="col-12 col-sm-6 col-lg-4 ">
+              <div class="custom-card position-relative">
+                <img src="images/port2-370x390.jpg" alt="" class="w-100 rounded">
+                <div class="hover-card rounded bg-primary text-white d-flex justify-content-between py-2 position-absolute align-items-center"> 
+                  <div class="text-start ps-3">
+                    <p class="mb-1">Development,Graphic Design</p>
+                    <h3 class="fs-5">Project Title01</h3>
+                  </div>
+                  <i class="fa-solid fa-plus pe-3"></i>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="custom-card position-relative">
+                <img src="images/computer-472016_1920-360x380.jpg" alt="" class="w-100 rounded">
+                <div class="hover-card rounded bg-primary text-white d-flex justify-content-between py-2 position-absolute align-items-center"> 
+                  <div class="text-start ps-3">
+                    <p class="mb-1">Development,Graphic Design</p>
+                    <h3 class="fs-5">Project Title01</h3>
+                  </div>
+                  <i class="fa-solid fa-plus pe-3"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="custom-card position-relative">
+                <img src="images/office-1209640_1920-1-360x380.jpg" alt="" class="w-100 rounded">
+                <div class="hover-card rounded bg-primary text-white d-flex justify-content-between py-2 position-absolute align-items-center"> 
+                  <div class="text-start ps-3">
+                    <p class="mb-1">Development,Graphic Design</p>
+                    <h3 class="fs-5">Project Title01</h3>
+                  </div>
+                  <i class="fa-solid fa-plus pe-3"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="custom-card position-relative">
+                <img src="images/port2-5-360x380.jpg" alt="" class="w-100 rounded">
+                <div class="hover-card rounded bg-primary text-white d-flex justify-content-between py-2 position-absolute align-items-center"> 
+                  <div class="text-start ps-3">
+                    <p class="mb-1">Development,Graphic Design</p>
+                    <h3 class="fs-5">Project Title01</h3>
+                  </div>
+                  <i class="fa-solid fa-plus pe-3"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="custom-card position-relative">
+                <img src="images/port7-370x390.jpg" alt="" class="w-100 rounded">
+                <div class="hover-card rounded bg-primary text-white d-flex justify-content-between py-2 position-absolute align-items-center"> 
+                  <div class="text-start ps-3">
+                    <p class="mb-1">Development,Graphic Design</p>
+                    <h3 class="fs-5">Project Title01</h3>
+                  </div>
+                  <i class="fa-solid fa-plus pe-3"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="custom-card position-relative">
+                <img src="images/suit-869380_1920-360x380.jpg" alt="" class="w-100 rounded">
+                <div class="hover-card rounded bg-primary text-white d-flex justify-content-between py-2 position-absolute align-items-center"> 
+                  <div class="text-start ps-3">
+                    <p class="mb-1">Development,Graphic Design</p>
+                    <h3 class="fs-5">Project Title01</h3>
+                  </div>
+                  <i class="fa-solid fa-plus pe-3"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-------------------------End WORK SECTION ------------------------>
+    <!-------------------------START PIC SECTION ------------------------>
+    <section class="pic-section">
+      <img src="images/ecommerce-cover-2.jpg" alt="" class="w-100">
+    </section>
+    <!-------------------------END PIC SECTION ------------------------>
+    <!-------------------------START TEAM SECTION ------------------------>
+    <section id="team-section" class="bg-light">
+      <div class="container content py-5 text-center">
+        <div class="w-75 mx-auto">
+          <h2 class="mx-auto fs-2">Our Creative Team</h2>
+          <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm dipisicing elit, sed do eiusmod tempor.</p>
+        </div>
+        <div class="section-cards row justify-content-between">
+          <div class="col-12 col-sm-6 col-lg-4 member">
+            <div class="custom-card position-relative text-center d-flex justify-content-center">
+              <img src="images/team1.png" alt="" class="pb-5">
+              <div class="card text-center position-absolute mx-auto border-0 rounded-0 rounded-bottom" style="width: 18rem;">
+                <div class="card-body pb-0">
+                  <h5 class="card-title">Jen Whyan</h5>
+                  <h6 class="text-primary">Founder</h6>
+                  <p class="card-text text-secondary">Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris....</p>
+                  <div class="icons hover-member bg-primary mx-auto rounded-top"> 
+                    <ul class="d-flex align-items-center justify-content-center p-0 mb-0">
+                      <li><a class="text-white"href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-twitter"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-instagram"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-google-plus-g"></i></a></li>
+                  </ul>                  
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 member">
+            <div class="custom-card position-relative text-center d-flex justify-content-center">
+              <img src="images/team2.png" alt="" class="pb-5">
+              <div class="card text-center position-absolute mx-auto border-0 rounded-0 rounded-bottom" style="width: 18rem;">
+                <div class="card-body pb-0">
+                  <h5 class="card-title">Jen Whyan</h5>
+                  <h6 class="text-primary">Founder</h6>
+                  <p class="card-text text-secondary">Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris....</p>
+                  <div class="icons hover-member bg-primary mx-auto rounded-top"> 
+                    <ul class="d-flex align-items-center justify-content-center p-0 mb-0">
+                      <li><a class="text-white"href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-twitter"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-instagram"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-google-plus-g"></i></a></li>
+                  </ul>                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 member">
+            <div class="custom-card position-relative text-center d-flex justify-content-center">
+              <img src="images/team3.png" alt="" class="pb-5">
+              <div class="card text-center position-absolute mx-auto border-0 rounded-0 rounded-bottom" style="width: 18rem;">
+                <div class="card-body pb-0">
+                  <h5 class="card-title">Jen Whyan</h5>
+                  <h6 class="text-primary">Founder</h6>
+                  <p class="card-text text-secondary">Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris....</p>
+                  <div class="icons hover-member bg-primary mx-auto rounded-top"> 
+                    <ul class="d-flex align-items-center justify-content-center p-0 mb-0">
+                      <li><a class="text-white"href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-twitter"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-instagram"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-google-plus-g"></i></a></li>
+                  </ul>                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 member">
+            <div class="custom-card position-relative text-center d-flex justify-content-center">
+              <img src="images/team4.png" alt="" class="pb-5">
+              <div class="card text-center position-absolute mx-auto border-0 rounded-0 rounded-bottom" style="width: 18rem;">
+                <div class="card-body pb-0">
+                  <h5 class="card-title">Jen Whyan</h5>
+                  <h6 class="text-primary">Founder</h6>
+                  <p class="card-text text-secondary">Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris....</p>
+                  <div class="icons hover-member bg-primary mx-auto rounded-top"> 
+                    <ul class="d-flex align-items-center justify-content-center p-0 mb-0">
+                      <li><a class="text-white"href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-twitter"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-instagram"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-google-plus-g"></i></a></li>
+                  </ul>                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 member">
+            <div class="custom-card position-relative text-center d-flex justify-content-center">
+              <img src="images/team5.png" alt="" class="pb-5">
+              <div class="card text-center position-absolute mx-auto border-0 rounded-0 rounded-bottom" style="width: 18rem;">
+                <div class="card-body pb-0">
+                  <h5 class="card-title">Jen Whyan</h5>
+                  <h6 class="text-primary">Founder</h6>
+                  <p class="card-text text-secondary">Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris....</p>
+                  <div class="icons hover-member bg-primary mx-auto rounded-top"> 
+                    <ul class="d-flex align-items-center justify-content-center p-0 mb-0">
+                      <li><a class="text-white"href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-twitter"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-instagram"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-google-plus-g"></i></a></li>
+                  </ul>                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 member">
+            <div class="custom-card position-relative text-center d-flex justify-content-center">
+              <img src="images/team6.png" alt="" class="pb-5">
+              <div class="card text-center position-absolute mx-auto border-0 rounded-0 rounded-bottom" style="width: 18rem;">
+                <div class="card-body pb-0">
+                  <h5 class="card-title">Jen Whyan</h5>
+                  <h6 class="text-primary">Founder</h6>
+                  <p class="card-text text-secondary">Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris....</p>
+                  <div class="icons hover-member bg-primary mx-auto rounded-top"> 
+                    <ul class="d-flex align-items-center justify-content-center p-0 mb-0">
+                      <li><a class="text-white"href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-twitter"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-instagram"></i></a></li>
+                      <li><a class="text-white"href=""><i class="fa-brands fa-google-plus-g"></i></a></li>
+                  </ul>                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------END TEAM SECTION ------------------------>
+    <!-------------------------START PRICING SECTION ------------------------>
+    <section id="pricing-section">
+      <div class="container content py-5 text-center">
+        <div class="w-75 mx-auto">
+          <h2 class="mx-auto fs-2">Our Pricing</h2>
+          <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor, nisl sed bibendum pretium, diam nisi mattis lectus, eu varius lorem mauris posuere dui. Proin consequat.</p>
+          <div class="section-cards">
+            <div class="btn-group tab-btns " role="group" aria-label="Basic example">
+              <button id="month-btn"type="button" class="btn btn-primary">Per / Month</button>
+              <button id="year-btn"type="button" class="btn  btn-outline-primary">Per / Year</button>
+            </div>
+          </div>
+        </div>
+        <div class="cards-section py-5 mx-auto">
+          <div class="row align-items-start">
+            <div class="col-lg-4 col-md-6 col-sm-12 p-0">
+              <div class="card w-100 text-center" style="width: 18rem;">
+                <div class="card-body">
+                  <h1 class="card-title">Personal</h1>
+                  <hr class="title-hr mx-auto">
+                  <h5 class="fs-6">From <span class="price text-primary fw-bold">$399</span></h5>
+                  <hr class="mx-auto w-75">
+                  <h6><i class="fa-solid fa-check text-primary px-2"></i>03 PSD Pack</h6>
+                  <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  <hr class="mx-auto w-75">
+                  <h6 ><i class="fa-solid fa-check text-primary px-2"></i>03 Wordpress Pack</h6>
+                  <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  <hr class="mx-auto w-75">
+                  <h6><i class="fa-solid fa-check text-primary px-2"></i>120 Support Ticket</h6>
+                  <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  <hr class="mx-auto w-75">
+                  <a href="#" class="btn btn-primary get-started-btn">Get Started Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-0 shadow-lg col-shadow rounded">
+              <div class="card w-100 text-center border-0" style="width: 18rem;">
+                <div class="card-body">
+                  <h1 class="card-title">Business</h1>
+                  <hr class="title-hr mx-auto">
+                  <h5 class="fs-6">From <span class="price text-primary fw-bold">$899</span></h5>
+                  <hr class="mx-auto w-75">
+                  <h6><i class="fa-solid fa-check text-primary px-2"></i>05 PSD Pack</h6>
+                  <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  <hr class="mx-auto w-75">
+                  <h6 ><i class="fa-solid fa-check text-primary px-2"></i>05 Wordpress Pack</h6>
+                  <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  <hr class="mx-auto w-75">
+                  <h6><i class="fa-solid fa-check text-primary px-2"></i>1000 Support Ticket</h6>
+                  <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  <hr class="mx-auto w-75">
+                  <a href="#" class="btn btn-outline-primary get-started-btn business-btn">Get Started Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-0">
+              <div class="card w-100 text-center" style="width: 18rem;">
+                <div class="card-body">
+                  <h1 class="card-title">Ultimate</h1>
+                  <hr class="title-hr mx-auto">
+                  <h5 class="fs-6">From <span class="price text-primary fw-bold">$499</span></h5>
+                  <hr class="mx-auto w-75">
+                  <h6><i class="fa-solid fa-check text-primary px-2"></i>20 PSD Pack</h6>
+                  <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  <hr class="mx-auto w-75">
+                  <h6 ><i class="fa-solid fa-check text-primary px-2"></i>20 Wordpress Pack</h6>
+                  <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  <hr class="mx-auto w-75">
+                  <h6><i class="fa-solid fa-check text-primary px-2"></i>1500 Support Ticket</h6>
+                  <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  <hr class="mx-auto w-75">
+                  <a href="#" class="btn btn-primary get-started-btn">Get Started Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------------------END PRICING SECTION ------------------------>
+    <!-------------------------START SUBSCRIBE SECTION ------------------------>
+    <section id="subscribe-section" class="">  
+      <div class="container">
+        <div class="row mx-auto align-items-center">
+          <div class="col-lg-6 col-md-12 d-flex align-items-center">
+            <i class="fa-regular fa-envelope text-white fs-1 px-3"></i>
+            <h1 class="text-white">Subscribe now for news</h1>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <form action="" class="d-flex align-items-center">
+              <input type="email" class="form-control" placeholder="input your mail" aria-label="Username">
+              <button type="button" class="btn btn-primary subscribe-btn fs-5 ms-3">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-------------------------END SUBSCRIBE SECTION ------------------------>
+    <section id="blog-section" class="bg-light">
+      <div class="container py-5">
+        <div class="w-75 mx-auto text-center">
+          <h2 class="mx-auto fs-2">Latest Blog</h2>
+          <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm dipisicing elit, sed do eiusmod tempor.</p>
+        </div>        
+        <div class="card-section mx-auto">
+          <div class="row">
+            <div class="col">
+              
+              <div class="card w-100 border-0 shadow" style="width: 18rem;">
+                <div class="img-sec">
+                  <img src="images/gallery2-1-360x260.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body d-flex p-0">
+                  <div class="icons bg-dark d-flex flex-column px-3 justify-content-center align-items-center me-3 py-2">  
+                    <i class="fa-brands fa-facebook-f text-white py-3"></i>
+                    <i class="fa-brands fa-twitter text-white py-3"></i>
+                    <i class="fa-brands fa-linkedin-in text-white py-3"></i>
+                    <i class="fa-brands fa-google-plus-g text-white py-3"></i>
+                    <i class="fa-brands fa-tumblr text-white py-3"></i>
+                  </div>
+                  <div class="p-3 ps-0">
+                    <h5 class="card-title fs-6">Four Ways To Cheer And Plan Your Self Up On Blue</h5>
+                    <div class="d-flex small-details">
+                      <span class="text-secondary pe-2 border-end border-1 border-dark"><i class="fa-regular fa-user"></i> By Dtm_demo</span>
+                      <span class="text-secondary ps-2"><i class="fa-solid fa-calendar-days"></i>19 Dec 2018</span>
+                    </div>
+                    <div class="progress my-3">
+                      <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>                  
+                    <p class="card-text">Lorem ipsum dolor sit amet, rcquisc adipiscing elit. Aenean socada commodo ligauala egets dssdolor....</p>
+                    <a href="#" class="text-black read-more-btn">Read More <i class="fa-solid fa-arrow-right-long ps-1"></i></a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card w-100 border-0 shadow" style="width: 18rem;">
+                <div class="img-sec">
+                  <img src="images/bg3-360x260.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body d-flex p-0">
+                  <div class="icons bg-dark d-flex flex-column px-3 justify-content-center align-items-center me-3 py-2">  
+                    <i class="fa-brands fa-facebook-f text-white py-3"></i>
+                    <i class="fa-brands fa-twitter text-white py-3"></i>
+                    <i class="fa-brands fa-linkedin-in text-white py-3"></i>
+                    <i class="fa-brands fa-google-plus-g text-white py-3"></i>
+                    <i class="fa-brands fa-tumblr text-white py-3"></i>
+                  </div>
+                  <div class="p-3 ps-0">
+                    <h5 class="card-title fs-6">Four Ways To Cheer And Plan Your Self Up On Blue</h5>
+                    <div class="d-flex small-details">
+                      <span class="text-secondary pe-2 border-end border-1 border-dark"><i class="fa-regular fa-user"></i> By Dtm_demo</span>
+                      <span class="text-secondary ps-2"><i class="fa-solid fa-calendar-days"></i>19 Dec 2018</span>
+                    </div>
+                    <div class="progress my-3">
+                      <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>    
+                    <p class="card-text">Lorem ipsum dolor sit amet, rcquisc adipiscing elit. Aenean socada commodo ligauala egets dssdolor....</p>
+                    <a href="#" class="text-black read-more-btn">Read More <i class="fa-solid fa-arrow-right-long ps-1"></i></a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card w-100 border-0 shadow" style="width: 18rem;">
+                <div class="img-sec">
+                  <img src="images/bg1-360x260.jpg " class="card-img-top" alt="...">
+                </div>
+                <div class="card-body d-flex p-0">
+                  <div class="icons bg-dark d-flex flex-column px-3 justify-content-center align-items-center me-3 py-2">  
+                    <i class="fa-brands fa-facebook-f text-white py-3"></i>
+                    <i class="fa-brands fa-twitter text-white py-3"></i>
+                    <i class="fa-brands fa-linkedin-in text-white py-3"></i>
+                    <i class="fa-brands fa-google-plus-g text-white py-3"></i>
+                    <i class="fa-brands fa-tumblr text-white py-3"></i>
+                  </div>
+                  <div class="p-3 ps-0">
+                    <h5 class="card-title fs-6">What’s The Difference Between Hospital & Extras Cover?</h5>
+                    <div class="d-flex small-details">
+                      <span class="text-secondary pe-2 border-end border-1 border-dark"><i class="fa-regular fa-user"></i> By Dtm_demo</span>
+                      <span class="text-secondary ps-2"><i class="fa-solid fa-calendar-days"></i>19 Dec 2018</span>
+                    </div>
+                    <div class="progress my-3">
+                      <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>    
+                    <p class="card-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum...</p>
+                    <a href="#" class="text-black read-more-btn">Read More <i class="fa-solid fa-arrow-right-long ps-1"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="clients-section">
+      <div class="container">
+        <!-- <div class="w-75 mx-auto">
+          
+        </div> -->
+        <div class="row mx-auto clients-row">
+          <div class="col-3">
+             <img src="images/team5.png" alt="" class="image-shadow"> 
+          </div>
+          <div class="col">
+              <div class="row">
+                <h2 class="mx-auto ps-5 pb-5 fs-1">Meet Our Clients</h2>
+              </div>  
+              <div class="row img-row justify-content-evenly">
+                <div class="col-3 border-1 img-section"><img src="images/partner-g1.png" alt="" class="border border-secondary rounded border-1 client-img"></div>
+                <div class="col-3 border-1 img-section"><img src="images/partner-g2.png" alt="" class="border border-secondary rounded border-1 client-img"></div>
+                <div class="col-3 border-1 img-section"><img src="images/partner-g3.png" alt="" class="border border-secondary rounded border-1 client-img"></div>
+                <div class="col-3 border-1 img-section"><img src="images/partner-g4.png" alt="" class="border border-secondary rounded border-1 client-img"></div>
+                <div class="col-3 border-1 img-section"><img src="images/partner-g5.png" alt="" class="border border-secondary rounded border-1 client-img"></div>
+                <div class="col-3 border-1 img-section"><img src="images/partner2.png" alt="" class="border border-secondary rounded border-1 client-img"></div>
+
+              </div>
+            
+          </div>
+        </div>      
+      </div>      
+    </section>
+    <section id="purchase-section" class="bg-primary py-5">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-md-8 col-sm-12 text-white"><h1>Would you like this great work for your site? </h1></div>
+          <div class="col-md-4 col-sm-12 align-self-end"><button type="button" class="btn btn-outline-primary bg-white purchase-btn">Purchase Now</button></div>
+        </div>
+      </div>
+    </section>    
+    <footer class="bg-dark">
+      <div class="container text-white py-5">
+        <div class="row">
+          <div class="col-xl-4 col-l-6 col-md-12">
+            <h3>Contact Info</h1>
+            <hr class="footer-title-hr">
+            <p><i class="fa-solid fa-location-dot pe-2"></i>123 Street Market, Life Plaza, New York</p>
+            <p><i class="fa-solid fa-phone-volume pe-2"></i>987654321</p>
+            <p><i class="fa-solid fa-envelope pe-2"></i>team@gmail.com</p>
+          </div>
+          <div class="col-xl-4 col-l-6 col-md-12">
+            <h3>Posts</h1>
+            <hr class="footer-title-hr">
+            <div class="card mb-3 bg-dark border-0" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <img src="images/abt-3.jpg" class="img-fluid pe-1" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body p-0">
+                    <p class="card-text mb-0">Four ways to cheer and plan your self up on Blue</p>
+                    <p class="card-text"><small class="text-muted"><i class="fa-solid fa-calendar-days pe-2"></i>December 19, 2018</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="card mb-3 bg-dark border-0" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <img src="images/bg1-360x260.jpg" class="img-fluid pe-1" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body p-0">
+                    <p class="card-text mb-0">Four ways to cheer and plan your self up on Blue</p>
+                    <p class="card-text"><small class="text-muted"><i class="fa-solid fa-calendar-days pe-2"></i>December 19, 2018</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-l-6 col-md-12">
+            <h3>Popular</h1>
+            <hr class="footer-title-hr">
+            <div class="popular-btns d-flex flex-wrap">
+              <button type="button" class="btn btn-outline-dark bg-white">Accountacy</button>
+              <button type="button" class="btn btn-outline-dark bg-white">Affiliate</button>
+              <button type="button" class="btn btn-outline-dark bg-white">Branding</button>
+              <button type="button" class="btn btn-outline-dark bg-white">Construction</button>
+              <button type="button" class="btn btn-outline-dark bg-white">Design</button>
+              <button type="button" class="btn btn-outline-dark bg-white">Drupal</button>
+              <button type="button" class="btn btn-outline-dark bg-white">Education</button>
+              <button type="button" class="btn btn-outline-dark bg-white">Graphics</button>
+              <button type="button" class="btn btn-outline-dark bg-white">Marketing</button>
+              <button type="button" class="btn btn-outline-dark bg-white">Money</button>
+              <button type="button" class="btn btn-outline-dark bg-white">Tally</button>
+              <button type="button" class="btn btn-outline-dark bg-white">Transform</button>
+              <button type="button" class="btn btn-outline-dark bg-white">Website</button>
+              <button type="button" class="btn btn-outline-dark bg-white">Wordpress</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="DTM-theme text-primary text-center fs-6 py-4">
+        <p class="p-0 m-0">© 2019 Developed By DTM Theme</p>
+      </div>
+    </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
